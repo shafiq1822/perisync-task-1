@@ -1,0 +1,169 @@
+.navbar-container {
+    background-color: white;
+  }
+  
+  .top-bar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 208, 90, 255);
+    padding: 10px;
+  }
+  
+  .top-bar p {
+    font-size: 14px;
+  }
+  
+  .top-bar p strong {
+    padding-left: 10px;
+  }
+  
+  .top-bar p strong a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-content {
+    /* width: 65rem; */
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 10px;
+    /* margin: 0 10rem; */
+  }
+  
+  .navbar-items{
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 55rem;
+      /* background-color: rgb(255, 240, 240); */
+  }
+
+  .categories-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+  }
+  
+  .category-icon {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+  
+  .input-container {
+    padding: 5px 7px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 8px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 30px;
+  }
+  
+  .search-icons {
+    font-size: 29px;
+    color: rgb(156, 156, 156);
+  }
+  
+  .input-container input {
+    border: none;
+    background-color: transparent;
+    width: 12rem;
+    outline: none;
+    margin-left: 8px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .login-button {
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(255, 208, 90, 255);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .signin-button {
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease;
+  }
+  
+  .signin-button:hover {
+    background-color: rgba(255, 208, 90, 255);
+    border: 1.5px solid rgba(255, 208, 90, 255);
+  }
+  
+  select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  #checkbox {
+      display: none;
+  }
+
+  .menu-bar{
+      display: none;
+      font-size: 30px;
+  }
+  
+/* Tablet */
+
+@media screen and (max-width: 1020px){
+
+    .navbar-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px;
+        /* background-color: yellow; */
+    }
+
+    .navbar-items{
+        display: none;
+    }
+
+    .menu-bar{
+        display: block;
+    }
+} 
+
+/* Mobile */
+
+@media screen and (max-width: 803px){
+
+    .top-bar{
+        padding: 5px;
+    }
+
+    .navbar-content{
+        padding: 10px 20px;
+    }
+}
+
+  /* Navbar end */
+  

@@ -1,0 +1,204 @@
+.body-main-container {
+  margin: 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  width: 50rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+  margin: 0 2rem;
+}
+
+.left-form {
+  padding: 4rem;
+  border-radius: 15px 0 0 15px;
+  background-color: #fff;
+  line-height: 1.5rem;
+  width: 50%;
+}
+
+.left-form h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.left-form h1 span {
+  color: rgba(255, 208, 90, 255);
+}
+
+.left-form p {
+  font-size: 14px;
+}
+
+
+.left-form label {
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.left-form input {
+  padding: 15px 10px;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.left-form .forgot-pass {
+  text-align: end;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.left-form .forgot-pass:hover {
+  color: rgba(255, 208, 90, 255);
+}
+
+.form-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-login-button {
+  padding: 15px 16%;
+  margin-right: 15px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-login-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.form-signup-button {
+  padding: 15px 14%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-signup-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.signin-with-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-with {
+  text-align: center;
+  margin-top: 15px;
+  position: relative;
+  padding: 0 10px;
+}
+
+.signin-with::before {
+  content: "";
+  width: 30%;
+  height: 1.5px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.signin-with::after {
+  content: "";
+  width: 30%;
+  height: 1.5px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.social-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.g-logo-container {
+  background-color: gray;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.f-logo-container {
+  background-color: gray;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.social-logo {
+  font-size: 24px;
+  color: white;
+}
+
+.img-section {
+  width: 50%;
+  position: relative;
+}
+
+.img-section img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1020px) {
+  .left-form h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 804px){
+    .form-wrapper{
+        margin: .5rem;
+    }
+}
+
+@media screen and (max-width: 703px) {
+
+    .form-wrapper{
+        margin: 0;
+    }
+
+    .left-form{
+        border-radius: 10px;
+        padding: 1.5rem;
+        width: 100%;
+    }
+
+
+    .img-section{
+        display: none;
+    }
+}
